@@ -1,0 +1,23 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "return utc and natural time stamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchivo101/timeStamp.git"
+  },
+  "author": "Chi Vo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nchivo101/timeStamp/issues"
+  },
+  "homepage": "https://github.com/nchivo101/timeStamp#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
