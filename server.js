@@ -2,6 +2,10 @@ var convert = require('./convert');
 var express = require('express');
 var app = express();
 
+app.get("/", function(req,res) {
+    res.sendFile(__dirname + "/home.html");
+})
+
 app.get("/:time", function(req,res) {
     var obj = {"unix": null, "natural": null};
     var time = req.params.time;
