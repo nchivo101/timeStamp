@@ -18,6 +18,8 @@ app.get("/:time", function(req,res) {
 
     res.send(obj);
 })
-app.listen(4000, function() {
-    console.log("Running on port 4000...")
+
+app.set ("port", process.env.PORT || 5000 );
+app.listen(app.get("port"), function() {
+    console.log("Running ...")
 })
